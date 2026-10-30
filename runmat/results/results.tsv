@@ -1,0 +1,76 @@
+status	test	seconds	detail
+FAIL	test_acp_2019wp_relationship	0.6	if condition: expected scalar logical or numeric value, got logical array with 4 elements 
+FAIL	test_acp_equivalence	0.6	Slicing only supported on tensors 
+FAIL	test_acp_opt_kappa_ridge	0.6	shape mismatch for slice assign 
+FAIL	test_acp_redu	0.5	if condition: expected scalar logical or numeric value, got logical array with 4 elements 
+FAIL	test_acp_stru	0.5	if condition: expected scalar logical or numeric value, got logical array with 4 elements 
+ERROR	test_anormrnd	7.3	/usr/bin/timeout: the monitored command dumped core 
+FAIL	test_build_lags	0.5	shape mismatch for slice assign 
+ERROR	test_check_separable	0.5	error: undefined variable 'S' 
+FAIL	test_construct_sigt	0.6	mldivide: unsupported input type SparseTensor(SparseTensor { rows: 5, cols: 5, col_ptrs: [0, 1, 2, 3, 4, 5], row_indices: [0, 1, 2, 3, 4], values: [1.3618927157905083, 0.9115392642852131, 0.7842850955226149, 0.6956126975380168, 0.8714103555
+FAIL	test_csv_armh_block	2.7	F64 }) to f64 
+ERROR	test_csv_armh	0.9	fatal runtime error: stack overflow, aborting 
+FAIL	test_diag	0.6	Slicing assignment only supported on tensors or string arrays 
+ERROR	test_diffmat	0.9	fatal runtime error: stack overflow, aborting 
+FAIL	test_dirichlet	0.6	Could not compile function source '/tmp/tp000000006ae44ebf109c69d60014f7b60000000000000000/dirirnd.m': local may be read before it is assigned 
+FAIL	test_dlog_gaps	0.5	Slicing only supported on tensors 
+FAIL	test_eq_var_oi	0.5	Matrix dimensions must agree. 
+ERROR	test_forecast_iterate_mahp	0.5	error: undefined variable 'forecast_BVAR_MNG' 
+ERROR	test_forecast_iterate_springer	0.5	error: undefined variable 'forecast_BVAR_Minn' 
+ERROR	test_forecast_mixquantile	0.8	fatal runtime error: stack overflow, aborting 
+FAIL	test_forecast_predictive	0.5	F64 }) to f64 
+ERROR	test_forecast_simulate	0.8	fatal runtime error: stack overflow, aborting 
+ERROR	test_forecast_tables	0.5	error: undefined variable 'legacy_accum_mahp' 
+FAIL	test_gigrnd	0.6	Slicing assignment only supported on tensors or string arrays 
+ERROR	test_hybtvp_equivalence	1.0	fatal runtime error: stack overflow, aborting 
+FAIL	test_igrnd	0.5	Slicing only supported on tensors 
+FAIL	test_impact_B0	0.5	shape mismatch for slice assign 
+FAIL	test_init_approx1N	0.5	mtimes: unsupported operand types 
+ERROR	test_kron_equivalence	0.5	error: undefined variable 'BVAR' 
+ERROR	test_kron_intlike	0.7	fatal runtime error: stack overflow, aborting 
+ERROR	test_kron_ml_densities	0.8	fatal runtime error: stack overflow, aborting 
+ERROR	test_ksc_ar1_mean	0.8	fatal runtime error: stack overflow, aborting 
+ERROR	test_ksc_rw_diffuse	0.7	fatal runtime error: stack overflow, aborting 
+ERROR	test_ksc_rw_h0	0.7	fatal runtime error: stack overflow, aborting 
+FAIL	test_logsumexp	0.5	Slicing assignment only supported on tensors or string arrays 
+ERROR	test_mahp_equivalence	0.5	error: undefined variable 'BVAR_MNG' 
+ERROR	test_mfvar_csv	0.5	error: tensor literal rows must have consistent column counts 
+ERROR	test_minnesota_C	0.9	/usr/bin/timeout: the monitored command dumped core 
+FAIL	test_missing_var	0.6	Slicing only supported on tensors 
+ERROR	test_mltvpsv_equivalence	0.5	error: tensor literal rows must have consistent column counts 
+ERROR	test_mltvpsv_ml_equivalence	0.5	error: tensor literal rows must have consistent column counts 
+ERROR	test_mltvpsv_ml	0.8	fatal runtime error: stack overflow, aborting 
+FAIL	test_mltvpsv_options	0.6	Could not parse function source '/tmp/tmp.nTlRav1FXH/test_mltvpsv_options.m': Syntax error at position 0: expected '}' to close cell literal 
+ERROR	test_mlvarsv_equivalence	0.6	error: undefined variable 'VAR_NCP' 
+FAIL	test_mlvarsv_gram	0.6	Matrix dimensions must agree. 
+FAIL	test_mlvarsv_ml_densities	1.0	mtimes: unsupported operand types 
+ERROR	test_mlvarsv_ml	0.6	error: undefined variable 'VAR_CSV' 
+FAIL	test_mlvarsv_options	0.5	Could not compile function source '/root/Projects/bvar-toolkit/replications/chan2023_joe_mlvarsv/preset.m': local may be read before it is assigned 
+FAIL	test_mm_constraint	0.5	Slicing only supported on tensors 
+ERROR	test_nu_studentt	0.7	fatal runtime error: stack overflow, aborting 
+ERROR	test_oisv_equivalence	0.5	error: undefined variable 'SVARSV_MH' 
+FAIL	test_prior_minn_largebvar	0.5	Index out of bounds 
+FAIL	test_prior_minn_mlvarsv	0.5	Index out of bounds 
+ERROR	test_prior_niw_kron_script	0.5	error: undefined variable 'construct_prior_A' 
+FAIL	test_prior_niw_largebvar_nc	0.5	4 }) to f64 
+FAIL	test_prior_niw_mlvarsv_ncp	0.6	4 }) to f64 
+FAIL	test_prior_niw_opthyper_ncp	0.5	4 }) to f64 
+ERROR	test_resid_var_allvars_ridge	0.8	/usr/bin/timeout: the monitored command dumped core 
+FAIL	test_resid_var_ar4	0.5	Could not parse function source '/root/Projects/bvar-toolkit/replications/chan2019wp_acp/legacy/get_resid_var.m': Syntax error at position 0: expected 'end' 
+FAIL	test_run_jointden	0.6	Could not compile function source '/root/Projects/bvar-toolkit/replications/chan2022_qe_acp/preset.m': local may be read before it is assigned 
+FAIL	test_select_obs	0.5	Index out of bounds 
+FAIL	test_shaded_band	0.5	fill value must be a scalar 
+FAIL	test_sign_assign	0.6	unable to parse numeric value 'GDP' on line 1 column 2 
+ERROR	test_simulate_var	0.5	error: tensor literal rows must have consistent column counts 
+ERROR	test_surform2	1.0	/usr/bin/timeout: the monitored command dumped core 
+ERROR	test_surform	0.7	/usr/bin/timeout: the monitored command dumped core 
+FAIL	test_sv0_params	0.5	semantic function bvar.sv.sv0_params expected 2 inputs, got 3 
+FAIL	test_sv_params	0.5	F64 }) to f64 
+FAIL	test_sv_params_mlvarsv	0.6	F64 }) to f64 
+ERROR	test_tnormrnd	0.9	/usr/bin/timeout: the monitored command dumped core 
+FAIL	test_util_report	0.6	unable to parse date/time text 'now' 
+ERROR	test_util_small	0.9	/usr/bin/timeout: the monitored command dumped core 
+FAIL	test_var_coef_joint	0.6	kron: unsupported input type SparseTensor(SparseTensor { rows: 2, cols: 2, col_ptrs: [0, 2, 4], row_indices: [0, 1, 0, 1], values: [1.2962962962962963, -0.7407407407407407, -0.7407407407407407, 1.8518518518518525], integer_data: None }); ex
+FAIL	test_var_csv	0.5	Index out of bounds 
+ERROR	test_var_sv	0.8	fatal runtime error: stack overflow, aborting 
+FAIL	test_vtheta	0.5	shape mismatch for slice assign 
